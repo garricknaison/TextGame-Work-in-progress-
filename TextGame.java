@@ -143,7 +143,7 @@ public class TextGame {
                     String s3 = gn.next();
                     pause(3000);
                     System.out.println(
-                            "Curse your luck.... there were no bullets inside them. Maybe you had to collect it from somewwere else... but now....");
+                            "Curse your luck.... there were no bullets inside them. Maybe you had to collect it from somewhere else... but now....");
                 }
                 System.out.println("You try your best using a large stick to defend yourself.");
                 pause(500);
@@ -165,7 +165,7 @@ public class TextGame {
                 System.out.println(
                         "You call the emergency services.\nThey will will be here by half an hour, till then you must wait.");
                 pause(2000);
-                System.out.println("They emergency services succesfully reached you...");
+                System.out.println("They emergency services successfully reached you...");
                 win();
             } else {
                 System.out.println("You feel into a deep well.");
@@ -184,7 +184,7 @@ public class TextGame {
             System.out.println("You unlock and walk inside the cabin.");
             pause(1000);
             System.out.println(
-                    "You can see some nuts and rasins sitting on the table. They look fine so you decide to eat them.");
+                    "You can see some nuts and raisins sitting on the table. They look fine so you decide to eat them.");
             pause(1000);
             System.out.println("They tasted stale but it has slightly raised your energy.");
             pause(2000);
@@ -228,7 +228,7 @@ public class TextGame {
                     "You are now outside, it seems half an hour or so had passed since you entered the cabin.");
             pause(500);
             System.out.println(
-                    "You can either ontinue walking towards the east or head south to look for the broke down car.");
+                    "You can either continue walking towards the east or head south to look for the broke down car.");
             pause(500);
             System.out.println("Where do you want to go?(east/south)");
             e1 = gn.next();
@@ -260,7 +260,7 @@ public class TextGame {
         }
         inCabin(count);
         pause(3000);
-        System.out.println("After some time you decide to go south to look for the abondoned car.");
+        System.out.println("After some time you decide to go south to look for the abandoned car.");
         pause(2000);
         System.out.println("You walk to the place you had been in the beginning and continue south.");
         pause(2000);
